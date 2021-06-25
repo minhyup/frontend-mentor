@@ -34,7 +34,7 @@ const MainArea = styled.div`
     color: ${({ theme }) => theme.color.primary.soft};
   }
 `;
-
+//
 const SubArea = styled.div`
   h2 {
     font-size: 24px;
