@@ -25,6 +25,29 @@ export const GlobalStyles: React.FC = () => {
 
         body {
           font-size: 15px;
+          font-family: -apple-system, system-ui, HelveticaNeue, AppleSDGothicNeo, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+        em {
+          font-style: normal;
+        }
+
+        ol,
+        ul,
+        li {
+          list-style: none;
+        }
+
+        fieldset,
+        img {
+          border: 0;
         }
       `}
     />
