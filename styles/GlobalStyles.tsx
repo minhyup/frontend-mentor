@@ -49,6 +49,9 @@ export const GlobalStyles: React.FC = () => {
         img {
           border: 0;
         }
+        img {
+          max-width: 100%;
+        }
       `}
     />
   );
