@@ -5,6 +5,7 @@ const Container = styled.div`
   background-color: ${(props) => props.theme.color.primary.mainBack};
   padding: 40px 20px 40px 20px;
   height: 100vh;
+  overflow: auto;
 
   /* PC */
   @media (min-width: 700px) {

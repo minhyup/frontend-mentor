@@ -52,6 +52,10 @@ export const GlobalStyles: React.FC = () => {
         img {
           max-width: 100%;
         }
+        html,
+        body {
+          height: 100%;
+        }
       `}
     />
   );
