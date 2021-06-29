@@ -5,16 +5,13 @@ import type { AppProps } from 'next/app';
 
 const theme = {
   color: {
-    primary: {
-      mainBack: 'hsl(233, 47%, 7%)',
-      cardBack: 'hsl(244, 38%, 16%)',
-      soft: 'hsl(277, 64%, 61%)'
-    },
-    neutral: {
-      head: 'hsl(0, 0%, 100%)',
-      paragraph: 'hsla(0, 0%, 100%, 0.75)',
-      stat: 'hsla(0, 0%, 100%, 0.6)'
-    }
+    color1: '#4D96A9',
+    color2: '#855Fb1',
+    color3: '#28283D',
+    color4: '#87879D',
+    color5: '#8FE3F9',
+    color6: '#D9B8FF',
+    color7: '#FAFAFA'
   }
 };
 
