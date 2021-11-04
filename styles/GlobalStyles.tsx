@@ -9,6 +9,9 @@ export const GlobalStyles: React.FC = () => {
 
         // 1. 공백 제거
         body,
+        h1,
+        h2,
+        button,
         p {
           margin: 0;
           padding: 0;
