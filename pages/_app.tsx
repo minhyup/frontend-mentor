@@ -4,17 +4,12 @@ import { GlobalStyles } from '@/styles/GlobalStyles';
 import type { AppProps } from 'next/app';
 
 const theme = {
-  color: {
-    primary: {
-      mainBack: 'hsl(233, 47%, 7%)',
-      cardBack: 'hsl(244, 38%, 16%)',
-      soft: 'hsl(277, 64%, 61%)'
-    },
-    neutral: {
-      head: 'hsl(0, 0%, 100%)',
-      paragraph: 'hsla(0, 0%, 100%, 0.75)',
-      stat: 'hsla(0, 0%, 100%, 0.6)'
-    }
+  colors: {
+    primary1: 'hsl(225, 100%, 94%)',
+    primary2: 'hsl(245, 75%, 52%)',
+    neutral1: 'hsl(225, 100%, 98%)',
+    neutral2: 'hsl(224, 23%, 55%)',
+    neutral3: 'hsl(223, 47%, 23%)'
   }
 };
 

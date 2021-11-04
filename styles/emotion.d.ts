@@ -1,17 +1,12 @@
 import '@emotion/react';
 declare module '@emotion/react' {
   export interface Theme {
-    color: {
-      primary: {
-        mainBack: string;
-        cardBack: string;
-        soft: string;
-      };
-      neutral: {
-        head: string;
-        paragraph: string;
-        stat: string;
-      };
+    colors: {
+      primary1: string;
+      primary2: string;
+      neutral1: string;
+      neutral2: string;
+      neutral3: string;
     };
   }
 }

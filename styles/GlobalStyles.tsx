@@ -7,50 +7,16 @@ export const GlobalStyles: React.FC = () => {
       styles={css`
         // reset
         body {
+          font-family: Red Hat Display, sans-serif;
           margin: 0;
           padding: 0;
         }
 
         // root
         @font-face {
-          font-family: 'Inter';
-          font-weight: 400, 700;
-          src: url('https://fonts.google.com/specimen/Inter');
-        }
-        @font-face {
-          font-family: 'Lexend Deca';
-          font-weight: 400;
-          src: url('https://fonts.google.com/specimen/Lexend+Deca');
-        }
-
-        body {
-          font-size: 15px;
-          font-family: -apple-system, system-ui, HelveticaNeue, AppleSDGothicNeo, sans-serif;
-        }
-
-        h1,
-        h2,
-        h3,
-        p {
-          margin: 0;
-          padding: 0;
-        }
-        em {
-          font-style: normal;
-        }
-
-        ol,
-        ul,
-        li {
-          list-style: none;
-        }
-
-        fieldset,
-        img {
-          border: 0;
-        }
-        img {
-          max-width: 100%;
+          font-family: 'Red Hat Display';
+          font-weight: 500, 700, 900;
+          src: url('https://fonts.google.com/specimen/Red+Hat+Display');
         }
       `}
     />
