@@ -15,6 +15,9 @@ const SummaryCard = styled.div`
   background-color: #fff;
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
   border-radius: 20px;
+  @media (min-width: 1440px) {
+    width: 450px;
+  }
 `;
 const CardImage = styled.img`
   display: inline-block;
@@ -22,11 +25,17 @@ const CardImage = styled.img`
   height: 160px;
   object-fit: cover;
   /* margin-bottom: 32px; */
+  @media (min-width: 1440px) {
+    height: 220px;
+  }
 `;
 
 const CardDescription = styled.div`
   /* padding-top: 32px; */
   padding: 32px 24px 32px;
+  @media (min-width: 1440px) {
+    padding: 45px 48px 48px;
+  }
 `;
 const CardTitle = styled.h1`
   text-align: center;
@@ -35,6 +44,10 @@ const CardTitle = styled.h1`
   line-height: 29px;
   color: #1f2e55;
   margin-bottom: 16px;
+  @media (min-width: 1440px) {
+    font-size: 28px;
+    line-height: 37px;
+  }
 `;
 const CardComment = styled.p`
   font-weight: 500;
@@ -43,6 +56,11 @@ const CardComment = styled.p`
   text-align: center;
   color: #717fa6;
   margin-bottom: 24px;
+  @media (min-width: 1440px) {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
 `;
 
 const DetailPannelWrapper = styled.div`
@@ -50,6 +68,9 @@ const DetailPannelWrapper = styled.div`
   background: #f7f9ff;
   border-radius: 11px;
   margin-bottom: 32px;
+  @media (min-width: 1440px) {
+    padding: 25px 24px;
+  }
 `;
 const DetailPannel = styled.div`
   display: flex;
@@ -81,6 +102,11 @@ const DetailPannel = styled.div`
     line-height: 19px;
     text-decoration: underline;
     color: #382ae1;
+    transition: 0.3s;
+  }
+  .link:hover {
+    color: #766cf1;
+    text-decoration: none;
   }
 `;
 
@@ -98,6 +124,13 @@ const PrimaryButton = styled.button`
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   border-radius: 11px;
   margin-bottom: 24px;
+  transition: 0.3s;
+  &:hover {
+    background-color: #766cf1;
+  }
+  @media (min-width: 1440px) {
+    margin-bottom: 32px;
+  }
 `;
 
 const ButtonWrapper = styled.div`
@@ -112,6 +145,10 @@ const NegativeButton = styled.button`
   background-color: transparent;
   border: none;
   text-align: center;
+  transition: 0.3s;
+  &:hover {
+    color: #1f2e55;
+  }
 `;
 
 export default function MainPage(): React.ReactElement {
