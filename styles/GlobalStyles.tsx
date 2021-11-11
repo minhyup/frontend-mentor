@@ -23,10 +23,11 @@ export const GlobalStyles: React.FC = () => {
         h2,
         h3,
         h4,
-        h5 {
-          font-family: Red Hat Display, sans-serif;
-          font-weight: 500;
-          font-size: 16px;
+        h5,
+        p {
+          font-family: Lexend Deca, sans-serif;
+          font-weight: 400;
+          font-size: 15px;
           /* line-height: 20px; */
         }
 
@@ -53,9 +54,14 @@ export const GlobalStyles: React.FC = () => {
 
         // root
         @font-face {
-          font-family: 'Red Hat Display';
-          font-weight: 500, 700, 900;
-          src: url('https://fonts.google.com/specimen/Red+Hat+Display');
+          font-family: 'Lexend Deca';
+          font-weight: 400;
+          src: url('https://fonts.google.com/specimen/Lexend+Deca');
+        }
+        @font-face {
+          font-family: 'Big Shoulders Display';
+          font-weight: 700;
+          src: url('https://fonts.google.com/specimen/Big+Shoulders+Display');
         }
       `}
     />

@@ -4,9 +4,10 @@ declare module '@emotion/react' {
     colors: {
       primary1: string;
       primary2: string;
+      primary3: string;
       neutral1: string;
       neutral2: string;
-      neutral3: string;
+      // neutral3: string;
     };
   }
 }

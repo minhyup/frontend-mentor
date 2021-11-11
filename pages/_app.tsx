@@ -5,11 +5,11 @@ import type { AppProps } from 'next/app';
 
 const theme = {
   colors: {
-    primary1: 'hsl(225, 100%, 94%)',
-    primary2: 'hsl(245, 75%, 52%)',
-    neutral1: 'hsl(225, 100%, 98%)',
-    neutral2: 'hsl(224, 23%, 55%)',
-    neutral3: 'hsl(223, 47%, 23%)'
+    primary1: 'hsl(31, 77%, 52%)',
+    primary2: 'hsl(184, 100%, 22%)',
+    primary3: 'hsl(179, 100%, 13%)',
+    neutral1: 'hsla(0, 0%, 100%, 0.75)',
+    neutral2: 'hsl(0, 0%, 95%)'
   }
 };
 
